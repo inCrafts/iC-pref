@@ -1,0 +1,37 @@
+/*    Цвета    */
+
+/*    Top-nav, Футер: #e38531    */
+/*    Линия заголовков футера: #fdd303    */
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Exo', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #000000;
+    overflow-wrap: break-word;
+}
+
+.page {
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.wrap {
+    max-width: 1500px;
+    min-width: 290px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

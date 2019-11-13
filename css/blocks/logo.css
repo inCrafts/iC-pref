@@ -1,0 +1,46 @@
+.header__logo {
+    height: 25.5rem;
+    -webkit-display: grid;
+    -moz-display: grid;
+    -ms-display: grid;
+     -o-display: grid;
+        display: grid;
+        display: -ms-grid;
+}
+
+.logo__link {
+    margin: auto;
+}
+
+@media (max-width: 1100px) {
+
+}
+
+
+@media (max-width: 640px) {
+    .logo__img {
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo__img {
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header__logo {
+        padding: 0 5vw;
+        -webkit-display: grid;
+        -moz-display: grid;
+        -ms-display: grid;
+         -o-display: grid;
+            display: grid;
+            display: -ms-grid;
+    }
+    .logo__img {
+        max-width: 20rem;
+    }
+}

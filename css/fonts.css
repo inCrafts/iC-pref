@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Exo';
+    src: url("../fonts/exo20-regular-webfont.woff"),
+    url("../fonts/exo20-regular-webfont.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url("../fonts/exo_2.0_medium-webfont.woff"),
+    url("../fonts/exo_2.0_medium-webfont.woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url("../fonts/exo20-semibold-webfont.woff"),
+    url("../fonts/exo20-semibold-webfont.woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url("../fonts/exo20-bold-webfont.woff"),
+    url("../fonts/exo20-bold-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/open_sans_regular-webfont.woff"),
+    url("../fonts/open_sans_regular-webfont.woff2");
+    font-weight: 500;
+    font-style: normal;
+}

@@ -1,0 +1,222 @@
+/*    Гончарная мастерская    */
+
+.pottery__wrap {
+    -webkit-display: grid;
+    -moz-display: grid;
+    -ms-display: grid;
+     -o-display: grid;
+        display: grid;
+        display: -ms-grid;
+    -ms-grid-template-columns: 75% 25%;
+    grid-template-columns: 75% 25%;
+    -ms-grid-template-rows: 100vh;
+    grid-template-rows: 100vh;
+    justify-content: center;
+    -ms-align-items: normal;
+    align-items: normal;
+    grid-gap: 3rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.banner {
+    max-width: 1500px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('../../img/Craftrooms/pottery-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*    Sidebar styles    */
+
+.pottery__sidebar {
+    -webkit-display: grid;
+    -moz-display: grid;
+    -ms-display: grid;
+     -o-display: grid;
+        display: grid;
+        display: -ms-grid;
+    background-color: #e5e5e5;
+}
+
+.aside-rooms__list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    overflow-wrap: normal;
+}
+
+.aside-rooms__item {
+    margin-top: 3rem;
+    padding: 1rem 0 1rem 3rem;
+    box-sizing: border-box;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.aside-rooms__item.active {
+    background-color: #ffffff;
+}
+
+.aside-rooms__item.active > a {
+    cursor: default;
+}
+
+.aside-rooms__item:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+.aside-rooms__link {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    max-width: 15rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+.aside-rooms__icon {
+    width: 6rem;
+    margin-right: 3rem;
+}
+
+/*    Craftroom tags    */
+
+.craftroom__tags {
+    max-width: 40%;
+    margin-left: 8rem;
+    padding: 0;
+    list-style: none;
+}
+
+.craftroom__tag {
+    display: inline;
+}
+
+.tags-link {
+    font-size: 1rem;
+    letter-spacing: .05em;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+.tags-link::before {
+    content: "[";
+
+}
+
+.tags-link::after {
+    content: ']';
+}
+
+.tags-link:hover {
+    text-decoration: underline;
+}
+
+
+/*    Products heading   */
+
+/*    Products title   */
+
+.craftroom__title {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: #006f96;
+}
+
+.craftroom__img {
+    max-width: 6rem;
+    margin-right: 2rem;
+}
+
+    /*    Products list   */
+
+.products {
+    margin-top: 7rem;
+}
+
+.products__list {
+    -webkit-display: grid;
+    -moz-display: grid;
+    -ms-display: grid;
+     -o-display: grid;
+        display: grid;
+        display: -ms-grid;
+    -ms-grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-gap: 2rem;
+    grid-gap: 2rem;
+    list-style: none;
+}
+
+.products__link {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.products__title {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    letter-spacing: .005em;
+    color: #006f96;
+}
+
+.products__price {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+.price-text {
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.price-number {
+    font-size: 3rem;
+    font-weight: 800;
+}

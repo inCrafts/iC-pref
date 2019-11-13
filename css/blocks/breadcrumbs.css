@@ -1,0 +1,29 @@
+/*    Breadcrumbs styles    */
+
+.breadcrumbs {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0;
+    padding: 3rem 0;
+    list-style: none;
+}
+
+.breadcrumbs_item::after {
+    content: '/';
+    margin: 0 1rem;
+}
+
+.breadcrumbs_item:last-child::after {
+    content: none;
+    margin-right: 0;
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+

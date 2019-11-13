@@ -1,0 +1,9 @@
+.banner {
+    max-width: 1500px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('../../img/main-slider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
